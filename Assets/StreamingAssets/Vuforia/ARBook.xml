@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
-    <ImageTarget name="sun" size="5.000000 2.812500" />
+    <ImageTarget name="human-skeleton" size="5.000000 10.014286" />
+    <ImageTarget name="butterfly1jpg" size="5.000000 3.636719" />
     <ImageTarget name="presshere" size="0.500000 0.203674" />
   </Tracking>
 </QCARConfig>

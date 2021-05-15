@@ -11,6 +11,7 @@ public class Titlebutton : MonoBehaviour
     public AudioSource sound;
     void Start()
     {
+        
         Text.SetActive(false);
        // Boy.SetActive(false);
         vrBehaviour = GetComponentInChildren<VirtualButtonBehaviour>();
@@ -25,6 +26,7 @@ public class Titlebutton : MonoBehaviour
         sound.Play();
         Text.SetActive(true);
        // Boy.SetActive(true);
+       Debug.Log("button click");
     }
     public void OnButtonRelease(VirtualButtonBehaviour vrb)
     {
